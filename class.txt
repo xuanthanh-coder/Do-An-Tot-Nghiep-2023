@@ -1,0 +1,5 @@
+0 - di bo
+1 - dau tim
+2 - bac si
+3 - te nga
+4 - di dao
