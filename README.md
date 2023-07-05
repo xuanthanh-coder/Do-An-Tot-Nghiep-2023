@@ -19,7 +19,9 @@ Chương trình chạy trên môi trường Anaconda
 
 $ pip install -r requirements.txt
 
-## B2: Build c++ library for post processing. See : https://github.com/ildoonet/tf-pose-estimation/tree/master/tf_pose/pafprocess
+## B2: Build c++ library for post processing. 
+
+See : https://github.com/ildoonet/tf-pose-estimation/tree/master/tf_pose/pafprocess
 
 $ cd tf_pose/pafprocess
 
