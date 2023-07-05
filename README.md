@@ -16,7 +16,9 @@ B2: Build c++ library for post processing. See : https://github.com/ildoonet/tf-
 $ cd tf_pose/pafprocess
 $ swig -python -c++ pafprocess.i && python3 setup.py build_ext --inplace
 
-Sau khi cài các thư viện và build C++ library thành c
+Sau khi cài các thư viện và build C++ library thành công
+
+
 B3: Collect data
 $ python collect_data.py
 
