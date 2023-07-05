@@ -1,6 +1,7 @@
 -*- coding: utf8 -*-
 
-DA NANG UNIVERSITY OF TECHNOLOGY
+TRƯỜNG ĐẠI HỌC BÁCH KHOA - ĐẠI HỌC ĐÀ NẴNG
+KHOA ĐIỆN TỬ - VIỄN THÔNG
 
        NGUYEN XUAN THANH - 106190035
        
