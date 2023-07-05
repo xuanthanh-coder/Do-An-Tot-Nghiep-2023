@@ -1,9 +1,13 @@
 -*- coding: utf8 -*-
 
 DA NANG UNIVERSITY OF TECHNOLOGY
+
        NGUYEN XUAN THANH - 106190035
+       
        NGUYEN TRAN MINH - 106190024
+       
 DE TAI: ỨNG DỤNG MÔ HÌNH NHẬN DẠNG HÀNH VI HỖ TRỢ GIÁM SÁT THÔNG MINH TẠI VIỆN DƯỠNG LÃO
+
 Tách và phân tích đặc trưng khung xương trên video RGB
 
 
