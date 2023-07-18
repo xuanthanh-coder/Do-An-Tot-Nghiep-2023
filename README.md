@@ -44,7 +44,7 @@ Các kết quả đạt được của đề tài:
 
 ## Result
 
-<iframe width="560" height="315" src="https://youtu.be/K2OVymWRZcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Video hướng dẫn](https://youtu.be/K2OVymWRZcQ)
 
 <img src="Image/ChaoBacSi.png">
 
