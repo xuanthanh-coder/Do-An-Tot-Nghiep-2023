@@ -44,7 +44,7 @@ Các kết quả đạt được của đề tài:
 
 ## Result
 
-[Video hướng dẫn](https://youtu.be/K2OVymWRZcQ)
+[Video demo sản phẩm](https://youtu.be/K2OVymWRZcQ)
 
 <img src="Image/ChaoBacSi.png">
 
