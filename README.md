@@ -43,6 +43,9 @@ $ python recognize.py
 Các kết quả đạt được của đề tài:
 
 ## Result
+
+<iframe width="560" height="315" src="https://youtu.be/K2OVymWRZcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <img src="Image/ChaoBacSi.png">
 
 <img src="Image/Dautim.png">
