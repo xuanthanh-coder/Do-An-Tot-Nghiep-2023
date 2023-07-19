@@ -35,7 +35,12 @@ from Tracking.deep_sort.tracker import Tracker
 
 
 def playVioce():
-    ws.PlaySound("complane", ws.SND_FILENAME)
+    start_time = time.time()
+    ws.PlaySound(
+        "D:\Sign-Language-Recognition-based-on-2D-pose-estimate-master\dotquy.wav", ws.SND_FILENAME)
+    while time.time() - start_time < 5:
+        pass
+    ws.PlaySound(None, winsound.SND_PURGE)
 # Xác định các tham số cơ bản
 file_path = Path.cwd()
 clip_length = 15
@@ -142,9 +147,10 @@ class ActionClassifier(object):
         from keras.models import load_model
 
         self.dnn_model = load_model(model_path)
-        self.action_dict = ['Di bo', 'Dau tim', 'Bac si', 'Te nga', 'Di dao', 'Sai Gon', 'buon ngu', 'mua mang', 'doi bung', 'yeu', 'an', 'bieu quyet', 'dung yen', 'hep', 'rong', 'Vinh Long']
-        self.vni_action_dict = [u'Đi Bộ', u'Đau tim', u'Bác sĩ', u'Té ngã', u'Đi dạo', u'Sài Gòn', u'buồn ngủ',
-                                u'mùa màng', u'đói bụng', u'yêu', u'ăn', u'biểu quyết', u'.', u'hẹp', u'rộng', u'Vĩnh Long']
+        self.action_dict = ['Di bo', 'Dau tim', 'Chao Bac si', 'Di bo', 'Moi Nguoi', 'The duc', 'Hit tho',
+                            'The duc', 'Doi bung', 'Cam on', 'an', 'Muon gap', 'Ngam canh', 'Dau tim', 'Vuon Vai', 'Te Nga']
+        self.vni_action_dict = ['Di bo', 'Dau tim', 'Chao Bac si', 'Di bo', 'Moi Nguoi', 'The duc', 'Hit tho',
+                                'The duc', 'Doi bung', 'Cam on', 'an', 'Muon gap', 'Ngam canh', 'Dau tim', 'Vuon Vai', 'Te Nga']
     def predict(self, skeleton):
 
         # Preprocess data
@@ -443,10 +449,10 @@ class Ui_MainWindow(QtWidgets.QWidget):
                                         self.dict_check[label] = vni_prediced_label
                                     #print('prediced_label: ', prediced_label)
                                     cv2.putText(show, prediced_label, (xmin, ymin-10), cv2.FONT_HERSHEY_SIMPLEX, 1.5, (255, 0, 0), 4, cv2.LINE_AA)
-                                    if prediced_label == 'dau tim':
+                                    if prediced_label == 'Dau tim':
                                         t1 = Thread(target=playVioce)
                                         t1.start()
-                                        cv2.putText(show, 'WARNING: someone is falling down!', (20, 60), cv2.FONT_HERSHEY_SIMPLEX, 1.5, (0, 0, 255), 4)
+                                        cv2.putText(show, 'WARNING: Canh bao DOT QUY!', (20, 60), cv2.FONT_HERSHEY_SIMPLEX, 1.5, (0, 0, 255), 4)
                                         
                     if len(self.dict_check) > 0:
                         for i in list(self.dict_check):
